@@ -185,6 +185,8 @@ class GlobalBestPSO(SwarmOptimizer):
             self.swarm.pbest_pos, self.swarm.pbest_cost = compute_pbest(self.swarm)
             # Set best_cost_yet_found for ftol
             best_cost_yet_found = self.swarm.best_cost
+            if(best_cost_yet_found == 0):
+                break
             self.swarm.best_pos, self.swarm.best_cost = self.top.compute_gbest(self.swarm)
             # fmt: on
             self.rep.hook(best_cost=self.swarm.best_cost)
