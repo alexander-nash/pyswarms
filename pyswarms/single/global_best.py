@@ -189,7 +189,7 @@ class GlobalBestPSO(SwarmOptimizer):
                 break
             self.swarm.best_pos, self.swarm.best_cost = self.top.compute_gbest(self.swarm)
             # fmt: on
-            self.rep.hook(best_cost=self.swarm.best_cost)
+            #self.rep.hook(best_cost=self.swarm.best_cost)
             # Save to history
             hist = self.ToHistory(
                 best_cost=self.swarm.best_cost,
