@@ -17,7 +17,7 @@ with open("requirements-dev.txt") as f:
 
 
 setup(
-    name="pyswarms",
+    name="pyswarms_mod",
     version="1.1.lol",
     description="A Python-based Particle Swarm Optimization (PSO) library.",
     long_description=readme,
