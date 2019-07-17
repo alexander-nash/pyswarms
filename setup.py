@@ -24,7 +24,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Lester James V. Miranda",
     author_email="ljvmiranda@gmail.com",
-    url="https://github.com/ljvmiranda921/pyswarms",
+    url="https://github.com/alexander-nash/pyswarmsmod",
     packages=find_packages(exclude=["docs", "tests"]),
     include_package_data=True,
     install_requires=requirements,
